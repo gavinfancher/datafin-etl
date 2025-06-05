@@ -7,3 +7,8 @@ there are a few aspects to this project
 - once that is done adn a venv is activated and pip installed you need to install dagster and dagster0-webserver
 - fruthermore you need to add the datafin package to the python path so dagster can use it
 - you also need to create an .env file for you different environment variables 
+
+use the direcr location of your path to the datafin-package project to add it to the executabel python path
+```bash
+export PYTHONPATH="${PYTHONPATH}:/Users/gavinfancher/local/projects/datafin-package/datafin-package"
+```
